@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Talent Lab | Bemol</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <header> 
+            <h1>Bemol.com.br</h1>
+            <nav id="menu">
+                <ul> 
+                    <li><a href="#perfil">Perfil Colaborador</a></li>
+                    <li><a href="https://www.bemol.com.br/mercado-online">Mercado</a></li>
+                    <li><a href="https://www.bemolfarma.com.br/listas/itacoatiara">Farma</a></li>
+                    <li><a href="https://www.bemol.com.br/listas/itacoatiara" target="_blanck">Catálogo Bemol</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <h1>Colaborador Thiago da Silva </h1>
+        <section class="flex-perfil"> 
+            <div id="perfil">
+                <h3>Vendedor</h3>
+                <img src="img/perfil.jpg" alt="imagem de perfil">
+                <p> Setor: Linha Marrom <br>
+                    Colaborador: Thiago <br>
+                    Codigo: 1122 <br>
+                    Idade: 32
+                    
+                    
+
+
+                </p>
+
+            </div>
+            <div id="biografia">
+                <h3>Nossas Lojas do Norte</h3><br>
+                <p>Desde 1993, nos destacamos como a maior contribuinte de ICMS do estado do Amazonas, no segmento comercial. Estamos presentes na Amazônia Ocidental nas cidades de Manaus, Itacoatiara, Autazes, Parintins, Porto Velho, Boa Vista e Rio Branco. Temos 34 lojas físicas, 42 farmácias, 4 mercados, 19 loterias e 5 centros de distribuição. Contamos com cerca de 4.100 colaboradores.</p>
+
+            </div>
+
+        </section>
+
+
+        <h1 id="noticias"> Notícias Publicadas</h1>
+        <section class="flex-noticia">
+
+            <div class="Anuncio">
+                <img src="Anuncios/BemolLogo.jpg" alt="Anuncio Bemol">  
+            </div>
+
+            <div class="item-noticia">
+                <h2>Sustentabilidade</h2>  
+                <p>A Bemol aposta num futuro sustentável e apresenta sua primeira Fazenda Solar.
+                    Irá gerar energia limpa e renovável para seus colaboradores e clientes, garantindo boa economia nas suas contas de energia e, principalmente, diminuirá o impacto ambiental.</p>
+            
+                <li><a href="https://agroflorestamazonia.com/noticias-recentes/a-bemol-aposta-num-futuro-sustentavel-e-apresenta-sua-primeira-fazenda-solar/" target="_blanck">Clique aqui para saber mais.</a></li> 
+                  
+                </div>
+
+
+            <div class="item-noticia">
+                <h2>Princípios</h2>  
+                <p>Em nossa cultura corporativa, possuímos como principal princípio a integridade e adotamos os valores de justiça, ética e obediência às leis. A Bemol é uma empresa cidadã e cumpridora de suas obrigações.</p>
+            </div>
+
+            <div class="item-noticia">
+                <h2>Diferencial</h2>  
+                <p>A capacidade de entregar de forma rápida com frete barato é um diferencial competitivo da Bemol em relação aos seus concorrentes locais e nacionais, ressalta Honain.</p>
+            </div>
+
+            <div class="item-noticia">
+                <h2>Ainda Mais...</h2>  
+                <p>Tornou-se uma empresa moderna e ágil, destacando-se como líder de mercado em quase todos os segmentos em que atua: eletroeletrônicos, eletrodomésticos, móveis, auto atendimento, produtos automotivos, farmacêuticos, materiais de construção, alimentício e entre outros.</p>
+            </div>
+
+        </section>
+
+        <h1 id="galeria">Galeria de Fotos</h1>
+        <section class="flex">
+            <div>
+               
+                <img src="img/bemol1.jpg" alt="Bemol"title="Bemol">
+                <P>Loja Bemol Itacoatiara</P>
+
+            </div>
+
+            <div>
+                <img src="img/mercado.jpg" alt="Mercado Bemol"title="Mercado Bemol">
+                <P>Mercado Bemol</P>
+            </div>
+
+            <div>
+                <img src="img/farma.jpeg" alt="Farma Bemol"title="Farmacia bemol">
+                <P>Bemol Farma</P>
+            </div>
+
+            <div>
+                <img src="img/colaboradores.png" alt="Equipe"title="Equipe Bemol">
+                <P>Equipe Bemol</P>
+            </div>
+
+            <div>
+                <img src="img/diital.jpg" alt="Bemol Digital"title="Bemol Digital">
+                <P>Bemol Digital</P>
+            </div>
+
+            <div>
+                <img src="img/digital2.png" alt="Parceria Digital"title="Parceria Digital">
+                <P>Parceria Digital</P>
+            </div>
+            
+            
+        </section>
+        
+
+       
+
+        <footer>
+            <div id="endereco">
+                <h3>Bemol Itacoatiara<h3>
+                <p>Avenida Parque - 656 -  Centro<br>
+                Caixa Postal 460, CEP: 69100-000<br>
+                Itacoatiara - AM</p>
+            </div>
+            <div id="telefone">
+                <h3>Telefones</h3>
+                <p> (92) 0800 726 8300<br>
+                    (92) 98452-2238<br>
+                    (44) 3599-8000</p>
+            </div>
+
+            
+            <div id="informacoes">
+                <p>©Bemol.com - 2023
+
+                </p>
+            
+            </div>
+            
+        </footer>
+    
+    </body>
+</html>
