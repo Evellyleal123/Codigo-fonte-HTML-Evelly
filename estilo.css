@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+}
+
+
+section, footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex img{
+    max-width: 100%;
+    width:300px;
+    height: 200px;
+}
+
+.flex div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    margin: 10px;
+    background-color: aqua;
+    color: #000000; 
+
+}
+.flex-noticia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-noticia{
+    flex: 1 1 300px;
+    background-color: #e1dbdb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.Anuncio{
+    flex-basis: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Anuncio img{
+    max-width: 100%;
+
+}
+.flex-perfil{
+    display: flex;
+    flex-wrap: wrap;
+}
+#perfil{
+    border: 2px solid #d1b308;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+#biografia{
+    border: 2px solid #d1b308;
+    padding: 10px;
+    text-align: justify;
+    width: 80%;
+    flex: 1 1 80%;
+
+    
+}
+header{
+    display: flex;
+    background-color: #27271a;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #ffffff;
+}
+#menu{
+    padding: 5px;
+}
+
+#menu li{
+    list-style: none;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+#menu ul{
+    display: flex;
+
+}
+#menu a{
+    text-decoration: none;
+    display: block;
+    
+    padding: 10px;
+    color: #ffffff;
+}
+
+#menu a:hover{
+    background-color: #ffffff;
+    color: #27271a;
+    border-radius: 10px;
+}
+
+#menu :active{
+    background-color: green;
+    color: black;
+}
+footer{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #27271a;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#endereco, #telefone{
+    width: 45%;
+}
+#informacoes{
+    width: 100%;
+    text-align: center;
+    color: #d1b308;
+}
+
+
